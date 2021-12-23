@@ -1,0 +1,98 @@
+.tarif {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  margin: 7px;
+  border: 1px solid rgba(15, 19, 78, 0.534);
+  border-radius: 7px;
+}
+
+.tarif-header {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+}
+
+.tarif-section1 {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+}
+
+.tarif-section2 {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+.tarif-footer {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.tarif:nth-child(1) .tarif-header {
+  background-color: #ecaa46;
+}
+
+.tarif:nth-child(2) .tarif-header {
+  background-color: #72e73b;
+}
+
+.tarif:nth-child(3) .tarif-header {
+  background-color: #21ab8d;
+}
+
+.tarif:nth-child(4) .tarif-header {
+  background-color: #ab216d;
+}
+
+.tarif:nth-child(1) .tarif-section1 {
+  background-color: rgba(255, 153, 0, 0.451);
+}
+
+.tarif:nth-child(2) .tarif-section1 {
+  background-color: rgba(114, 231, 59, 0.451);
+}
+
+.tarif:nth-child(3) .tarif-section1 {
+  background-color: rgba(33, 171, 141, 0.451);
+}
+
+.tarif:nth-child(4) .tarif-section1 {
+  background-color: rgba(171, 33, 109, 0.451);
+}
+
+.tarif:nth-child(1) .tarif-section2 {
+  background-color: rgba(236, 170, 70, 0.295);
+}
+
+.tarif:nth-child(2) .tarif-section2 {
+  background-color: rgba(114, 231, 59, 0.295);
+}
+
+.tarif:nth-child(3) .tarif-section2 {
+  background-color: rgba(33, 171, 141, 0.295);
+}
+
+.tarif:nth-child(4) .tarif-section2 {
+  background-color: rgba(171, 33, 109, 0.295);
+}
+
+.tarif .tarif-footer {
+  background-color: rgba(209, 168, 168, 0.671);
+}
+
+.selected {
+  background-color: rgba(176, 255, 231, 0.705);
+  font-weight: bolder;
+  border: 2px solid violet;
+}/*# sourceMappingURL=TarifS.css.map */

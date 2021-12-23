@@ -1,0 +1,85 @@
+.tarif {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    margin: 7px;
+    border: 1px solid rgba(15, 19, 78, 0.534);
+    border-radius: 7px;
+    height: 65vh;
+}
+
+.tarif-header {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+}
+.tarif-section1{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.tarif-section2{
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+.tarif-footer {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 12vh;
+}
+.tarif:nth-child(1) .tarif-header {
+  background-color: rgb(236, 170, 70);
+}
+.tarif:nth-child(2) .tarif-header {
+  background-color: rgb(114, 231, 59);
+}
+.tarif:nth-child(3) .tarif-header {
+  background-color: rgb(33, 171, 141);
+}
+.tarif:nth-child(4) .tarif-header {
+  background-color: rgb(171, 33, 109);
+}
+.tarif:nth-child(1) .tarif-section1{
+    background-color: rgba(255, 153, 0, 0.451);
+}
+.tarif:nth-child(2) .tarif-section1{
+    background-color: rgb(114, 231, 59, 0.451);
+}
+.tarif:nth-child(3) .tarif-section1{
+    background-color: rgb(33, 171, 141, 0.451);;
+}
+.tarif:nth-child(4) .tarif-section1{
+    background-color: rgb(171, 33, 109, 0.451);
+}
+.tarif:nth-child(1) .tarif-section2 {
+  background-color: rgba(236, 170, 70, 0.295);;
+}
+.tarif:nth-child(2) .tarif-section2 {
+  background-color: rgb(114, 231, 59, 0.295);
+}
+.tarif:nth-child(3) .tarif-section2 {
+  background-color: rgb(33, 171, 141, 0.295);;
+}
+.tarif:nth-child(4) .tarif-section2 {
+  background-color: rgb(171, 33, 109, 0.295);
+}
+
+.tarif .tarif-footer {
+  background-color: rgba(209, 168, 168, 0.671);
+}
+
+
+.selected {
+background-color: rgba(176, 255, 231, 0.705);
+font-weight: bolder;    
+border: 2px solid violet;
+}
